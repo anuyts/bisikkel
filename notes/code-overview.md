@@ -73,8 +73,8 @@ What you would expect.
 
 ##### LiftBaseFunctor
 - `lift-ctx` is upper-star (precomposition) applied to contexts.
-- bang requires a quotient (so not implemented)
-- lower-star may have been done by [uHnftOad](https://github.com/uHnftOad)
+- bang (left Kan extension) requires a quotient (so not implemented)
+- lower-star (right Kan extension) may have been done by [uHnftOad](https://github.com/uHnftOad)
 
 ##### LiftBaseNatTransf
 - `lift-transf` is upper-star applied to substitutions.
